@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 5.2.0
+- https://www.phpmyadmin.net
+-
+- Host: 127.0.0.1:3306
+- Tempo de geração: 11-Jul-2023 às 13:58
+- Versão do servidor: 8.0.31
+- versão do PHP: 8.0.26
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="todolistdb" collation="utf8mb4_0900_ai_ci" charset="utf8mb4">
+            <pma:table name="tasks">
+                CREATE TABLE `tasks` (
+                  `id` int NOT NULL AUTO_INCREMENT,
+                  `name` varchar(255) NOT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Banco de dados: 'todolistdb'
+    -->
+    <database name="todolistdb">
+        <!-- Tabela tasks -->
+        <table name="tasks">
+            <column name="id">1</column>
+            <column name="name">Tarefa 1</column>
+        </table>
+        <table name="tasks">
+            <column name="id">2</column>
+            <column name="name">Tarefa 2</column>
+        </table>
+        <table name="tasks">
+            <column name="id">3</column>
+            <column name="name">Tarefa 3</column>
+        </table>
+    </database>
+</pma_xml_export>

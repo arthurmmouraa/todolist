@@ -1,0 +1,15 @@
+--> Hey! How are you doing?
+--> If you're here, that might means you need some help using my to-do-list! Dont worry, I'll help you!
+
+1º - Run your server (local or not);
+2º - On the "tasks.php" file, you might need to change some settings:
+	$servername = 'yourserversname'; (if local, don't change it)
+	$username = 'yourserverusername';
+	$password = 'yourserverpassword';
+	$dbname = 'todolistdb'; (don't change it, thats the database name I created);
+3º - Import the database located on "database" folder to your server;
+4º - Run it;
+5º - Ready to use! Hope you have some fun! ;-)
+
+
+
